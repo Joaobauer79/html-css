@@ -22,4 +22,15 @@ header, section.normal {
 section.flex-content {
     padding: 20px;
     background-color: rgb(152, 158, 154);
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+article.text-media {
+    display: flex;
+    flex-flow: row wrap; 
+}
+
+article.media-rext {
+    display: flex;
 }
