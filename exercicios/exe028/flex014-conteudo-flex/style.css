@@ -31,6 +31,15 @@ article.text-media {
     flex-flow: row wrap; 
 }
 
-article.media-rext {
+article.media-text {
     display: flex;
+    flex-flow: row wrap-reverse;
+}
+
+article > div.text {
+    flex: 1 1 500px;
+}
+
+article > div.media {
+    flex: 1 0 500px;
 }
